@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vaishnavi Parab's portfolio showcasing web development and software engineering projects.">
+    <meta name="keywords" content="Web Development, Java, Python, Portfolio, Vaishnavi Parab">
+    <title>Vaishnavi Parab - Portfolio</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="style.css">
+    <link href="animations.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="assets/profile.jpg" alt="Profile of Vaishnavi Parab" style="width:150px; border-radius:50%;">
+        <h1>Vaishnavi Parab</h1>
+        <p>Web and Software Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section id="about" class="fade-in">
+            <h2>About Me</h2>
+            <p>Hello! I am Vaishnavi Parab, an aspiring software developer passionate about creating efficient, user-friendly applications. Currently pursuing a B.E. in Computer Engineering, I have developed skills in web development, programming, and databases. My projects include a Color Detection Tool, Task Management System, and a dynamic Quiz Application.</p>
+            <!-- Achievements Section -->
+            <h3>Achievements:</h3>
+                <ul>
+                    <li>Gold Medalist in Diploma</li>
+                    <li>Pragati Scholarship Recipient</li>
+                    <li>NSS Volunteer for 3 years</li>
+                </ul>
+            <!-- Technical Skills Section -->
+            <h3>Technical Skills:</h3>
+            <ul>
+                <li>C++, Java, Python(Basic)</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="fade-in">
+            <h2>Projects</h2>
+            <div class="project-card-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="assets/color.jpg" alt="Color Detection Application">
+                    <h3>Color Detection Tool</h3>
+                    <p>Developed a color detection tool in Python and web versions. It identifies colors on images with user interactivity.</p>
+                    <a href="https://github.com/Vaishnavi2111/Color-Detection" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="assets/task.jpg" alt="Task Management System">
+                    <h3>Task Management System</h3>
+                    <p>A web-based system for organizing tasks with features like user authentication, categorization, and priority setting.</p>
+                    <a href="https://github.com/Vaishnavi2111/Task-Management-System" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="assets/quiz.jpg" alt="Quiz Application">
+                    <h3>Quiz Application</h3>
+                    <p>A customizable JavaFX-based quiz app featuring multiple categories, timed quizzes, and score tracking.</p>
+                    <a href="https://github.com/Vaishnavi2111/QuizApp" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="assets/unit.jpg" alt="Unit Converter Website">
+                    <h3>Unit Converter Website</h3>
+                    <p>A responsive tool for converting units like length and temperature. Built using HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/Vaishnavi2111/Unit-Converter" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>                  
+
+        <section id="resume" class="fade-in">
+            <h2>Resume</h2>
+            <p>Interested in learning more about me? Download my resume to view my skills, projects, and achievements in detail.</p>
+            <a href="assets/Vaishnavi_Parab_Resume.pdf" class="btn resume-download" download>
+                <i class="fas fa-file-download"></i> Download Resume
+            </a>
+        </section>          
+
+        <section id="contact" class="fade-in">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me for any opportunities or collaborations!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <b>Email:</b>
+                    <a href="mailto:vaishnaviparab336@gmail.com">vaishnaviparab336@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <b>Phone:</b>
+                    <a href="tel:+919823856695">+91 9823856695</a>
+                </div>
+                <div class="contact-item">
+                    <b>LinkedIn:</b>
+                    <a href="https://www.linkedin.com/in/vaishnavi-parab-261500235/" target="_blank">View LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <b>GitHub:</b>
+                    <a href="https://github.com/Vaishnavi2111" target="_blank">View GitHub Profile</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="theme-toggle">
+            <button id="theme-toggle" title="Toggle Dark Mode">🌙</button>
+        </div>
+        <div class="footer-content">
+            <p>© 2025 Vaishnavi Parab. All rights reserved.</p>
+            <p>Made with ❤️ by Vaishnavi Parab</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

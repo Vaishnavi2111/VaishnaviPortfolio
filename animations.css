@@ -1,0 +1,207 @@
+/* Initially, elements will be transparent */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* This class will be added when the element enters the viewport */
+.fade-in-visible {
+    opacity: 1;
+}
+
+/* Light Theme (default) */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #2a3d66;
+    color: #fff;
+}
+
+/* Dark Mode Specific Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-theme header {
+    background-color: #2a3d66;
+}
+
+body.dark-theme footer {
+    background-color: #2a3d66;
+}
+
+body.dark-theme header, body.dark-theme footer {
+    color: white;
+}
+
+/* About Section */
+body.dark-theme #about {
+    background-color: #1e1e1e; /* Dark background for the About section */
+}
+
+body.dark-theme #about h3 {
+    color: #f0f0f0; /* Lighter color for the headings */
+    font-weight: bold; /* Ensure the headings stand out more */
+}
+
+body.dark-theme #about ul li {
+    color: #e0e0e0; /* Light gray color for list items */
+}
+
+body.dark-theme #about p {
+    color: #ddd; /* Ensure the paragraph text is light enough */
+}
+
+  /* Projects Section */
+body.dark-theme #projects {
+    background-color: #2a2a2a;
+}
+
+body.dark-theme .project-card {
+    background-color: #333;
+    color: #ddd;
+}
+
+body.dark-theme .project-card h3 {
+    color: #f0f0f0;
+}
+
+body.dark-theme .project-card p,
+body.dark-theme .project-card a {
+    color: #ccc;
+}
+
+body.dark-theme .project-card a {
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .project-card a:hover {
+    color: #85c1e9;
+}
+
+body.dark-theme .project-card .project-image {
+    border-radius: 5px;
+}
+
+/* Resume Section */
+body.dark-theme #resume {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+body.dark-theme #resume a {
+    background-color: #2a3d66;
+    color: white;
+}
+
+body.dark-theme #resume .btn:hover {
+    background-color: #85c1e9;
+}
+
+/* Contact Section */
+body.dark-theme #contact {
+    background-color: #333;
+    color: #ddd;
+}
+
+body.dark-theme .contact-info a {
+    color: #85c1e9;
+}
+
+body.dark-theme .contact-info a:hover {
+    color: #fff;
+}
+
+  /* Resume Section */
+body.dark-theme #resume {
+    background-color: #1e1e1e; /* Dark background for better contrast */
+    color: #f0f0f0; /* Light text for readability */
+}
+
+body.dark-theme #resume h2 {
+    color: #f0f0f0; /* Light color for the heading */
+}
+
+body.dark-theme #resume p {
+    color: #ddd; /* Light gray color for the paragraph text */
+}
+
+body.dark-theme #resume .btn {
+    background-color: #2a3d66;
+    color: white;
+}
+
+body.dark-theme #resume .btn:hover {
+    background-color: #85c1e9;
+}
+
+/* Contact Section */
+body.dark-theme #contact {
+    background-color: #2a2a2a; /* Darker background for contrast */
+    color: #f0f0f0; /* Light text for readability */
+}
+
+body.dark-theme #contact h2 {
+    color: #f0f0f0; /* Light color for the heading */
+}
+
+body.dark-theme #contact p {
+    color: #ddd; /* Light gray color for the paragraph text */
+}
+
+body.dark-theme .contact-info a {
+    color: #85c1e9; /* Light blue color for links */
+}
+
+body.dark-theme .contact-info a:hover {
+    color: #fff; /* Change color to white on hover */
+}
+
+
+/* Links and Hover Effects */
+body.dark-theme a {
+    color: #85c1e9;
+}
+
+body.dark-theme a:hover {
+    color: #fff;
+}
+
+/* Back-to-Top Button */
+body.dark-theme #back-to-top {
+    background-color: #2a3d66;
+    color: white;
+}
+
+/* Button Hover Effect */
+body.dark-theme .btn {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+body.dark-theme .btn:hover {
+    transform: scale(1.1);
+    background-color: coral;
+}
+
+/* Style for the theme toggle button */
+.theme-toggle {
+    display: flex;
+    justify-content: flex-end;
+}
+#theme-toggle {
+    background: none;       /* Removes the background */
+    border: none;           /* Removes the border */
+    color: inherit;         /* Inherit the text color */
+    font-size: 1.5rem;      /* Adjust the font size */
+    cursor: pointer;       /* Makes it a clickable button */
+    padding: 5px 10px;      /* Adds some padding */
+    transition: transform 0.3s ease; /* Adds transition for smooth interaction */
+}
+
+#theme-toggle:hover {
+    transform: scale(1.2); /* Slightly scale the button on hover for effect */
+}  
